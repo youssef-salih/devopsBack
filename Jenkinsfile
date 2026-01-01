@@ -4,7 +4,7 @@ pipeline {
     environment {
         JAVA_HOME = "C:\\Program Files\\Java\\jdk-25"
         PATH = "${env.JAVA_HOME}\\bin;C:\\apache-maven-3.9.8\\bin;C:\\Program Files\\Docker\\Docker\\resources\\bin;${env.PATH}"
-        IMAGE_NAME = "springBack"
+        IMAGE_NAME = "springback"
     }
 
     stages {
